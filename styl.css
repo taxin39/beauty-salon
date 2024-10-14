@@ -1,0 +1,1019 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('images_cresta-designwork/seamless-texture-natural-wood.jpg');
+    background-repeat: repeat;
+    background-size: auto;
+    height: 100vh;
+    margin: 0;
+}
+
+/******** header ***************/
+.header {
+    width: 100%;
+    height:auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .img {
+    margin-top: 1%;
+    margin-left: 3%;
+    
+}
+
+.header .img img {
+    width: 80%;
+    height: 120%;
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+    align-self: center;
+    margin-top: 3%;
+    margin-right: 10%;
+}
+
+.header ul li {
+    margin-right: 10%;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.4rem;
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+}
+
+/******** swiper ***************/
+.swiper {
+    width: 80%;
+    height: 80%;
+    margin-left: 10%;
+    margin-top: 2%;
+    object-fit: cover;
+  }
+
+  .swiper .swiper-wrapper img {
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+    user-select: none;
+  }
+
+/******** ABOUT ***************/
+#ABOUT {
+    width: 80%;
+    height: auto;
+    margin-top: 8%;
+    margin-left: 10%;
+}
+
+#ABOUT h1 {
+    text-align: center;
+    font-size: 4.4rem;
+    text-shadow: 10px 10px 5px rgba(0,0,0,0.1);
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    margin-bottom: 5%;
+
+}
+
+#ABOUT h2 {
+    text-align: center; 
+    font-size: 2.4rem; 
+    margin:-1vh 0 5vh 0;
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+}
+
+#ABOUT p {
+    margin-bottom: 4%;
+    font-size: 2.0rem;
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+}
+
+#ABOUT .profile {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-left: 25%
+}
+
+#ABOUT .profile img {
+    width: 25%;
+    height: auto;
+    border-radius: 100%;
+}
+
+#ABOUT .profile .pro-text p {
+    width: 100%;
+    font-size: 2.0rem;
+    margin-top: 20%;
+    margin-left: 20%;
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+}
+
+#ABOUT .last {
+    margin-top: 5%;
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+}
+
+#ABOUT p:last-child{
+    margin-top: -3.6%;
+    font-weight: 500;
+}
+
+/******** STYLE ***************/
+#STYLE {
+    width:100%;
+    height: auto;
+    margin-top: 5%;
+}
+
+#STYLE h1 {
+    text-align: center;
+    font-size: 4.4rem;
+    text-shadow: 10px 10px 5px rgba(0,0,0,0.1);
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    margin-bottom: 5%;
+}
+
+#STYLE .style-img {
+    width: 100%;
+}
+
+#STYLE .style-img .style-1 {
+    width: 100%;
+    display: flex;
+}
+
+#STYLE .style-img .style-1 img {
+    width: 20%;
+    height: auto;
+    margin-left: 4%;
+    border-radius: 10%;
+    transition: 0.3s;
+}
+
+#STYLE .style-img .style-1 img:hover {
+    transform: scale(1.2);
+}
+
+#STYLE .style-img .style-2 {
+    width: 100%;
+    display: flex;
+}
+
+#STYLE .style-img .style-2 img {
+    width: 20%;
+    height: auto;
+    margin-top: 3%;
+    margin-left: 4%;
+    border-radius: 10%;
+    transition: 0.3s;
+}
+
+#STYLE .style-img .style-2 img:hover {
+    transform: scale(1.2);
+}
+
+#STYLE .style-img .style-3 {
+    width: 100%;
+    display: flex;
+}
+
+#STYLE .style-img .style-3 img {
+    width: 20%;
+    height: auto;
+    margin-top: 3%;
+    margin-left: 4%;
+    border-radius: 10%;
+    transition: 0.3s;
+    display: none;
+}
+
+#STYLE .style-img .style-3.open img {
+    width: 20%;
+    height: auto;
+    margin-top: 3%;
+    margin-left: 5%;
+    border-radius: 10%;
+    transition: 0.3s;
+    display: flex;
+}
+
+#STYLE .style-img .style-3 img:hover {
+    transform: scale(1.2);
+}
+
+#STYLE .text {
+    width: 100%;
+    margin-top: 4%;
+}
+
+#STYLE .text .btn {
+    width: 20%;
+    margin-left: 40%;
+    font-size: 2rem;
+    border-radius: 5px;
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    user-select: none;
+}
+
+/******** MENU ***************/
+#MENU {
+    width: 100%;
+    height: auto;
+    margin-top: 8%;
+}
+
+#MENU h1 {
+    text-align: center;
+    font-size: 4.4rem;
+    text-shadow: 10px 10px 5px rgba(0,0,0,0.1);
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    margin-bottom: 4%;
+
+}
+
+/******recode1 **************/
+#MENU .recode1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+#MENU .recode1 .menu-1 {
+    width: 30%;
+    margin-left: 1.7%;
+    text-align: center;
+}
+
+#MENU .recode1 .menu-1 h2 {
+    font-size: 3.0rem;
+    margin-bottom: 10%;
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+}
+
+#MENU .recode1 .menu-1 p {
+    font-size: 1.4rem;
+    margin-bottom: 5%;
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+
+#MENU .recode1 .menu-2 {
+    width: 30%;
+    margin-left: 2.0%;
+}
+
+#MENU .recode1 .menu-2 h2 {
+    text-align: center;
+    font-size: 3.0rem;
+    margin-bottom: 10%;
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+}
+
+#MENU .recode1 .menu-2 p {
+    font-size: 1.4rem;
+    margin-bottom: 5%;
+    margin-left: 25%;
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+
+#MENU .recode1 .menu-3 {
+    width: 30%;
+    margin-left: 1.7%;
+}
+
+#MENU .recode1 .menu-3 h2 {
+    text-align: center;
+    font-size: 3.0rem;
+    margin-bottom: 10%;
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+}
+
+#MENU .recode1 .menu-3 p {
+    font-size: 1.4rem;
+    margin-bottom: 5%;
+    margin-left: 25%;
+
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+
+/******recode2 **************/
+#MENU .recode2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+#MENU .recode2 .menu-1 {
+    width: 30%;
+    margin-left: 1.7%;
+}
+
+#MENU .recode2 .menu-1 h2 {
+    text-align: center;
+    font-size: 3.0rem;
+    margin-bottom: 10%;
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+}
+
+#MENU .recode2 .menu-1 p {
+    font-size: 1.4rem;
+    margin-bottom: 5%;
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    margin-left: 20%;
+}
+
+#MENU .recode2 .menu-2 {
+    width: 30%;
+    margin-left: 1.7%;
+}
+
+#MENU .recode2 .menu-2 h2 {
+    text-align: center;
+    font-size: 3.0rem;
+    margin-bottom: 10%;
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+}
+
+#MENU .recode2 .menu-2 p {
+    font-size: 1.4rem;
+    margin-bottom: 5%;
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    margin-left: 20%;
+}
+
+/******** ACCESS ***************/
+#ACCESS {
+    width: 100%;
+    height: auto;
+    margin-top: 8%;
+}
+
+#ACCESS h1 {
+    text-align: center;
+    font-size: 4.4rem;
+    text-shadow: 10px 10px 5px rgba(0,0,0,0.1);
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    margin-bottom: 4%;
+}
+
+#ACCESS iframe {
+    width: 50%;
+    height: 50vh;
+    margin-bottom: 1%;
+    margin-left: 25%;
+}
+
+#ACCESS .text {
+    margin-left: 30%;
+}
+
+#ACCESS .text p {
+    font-size: 2.0rem;
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    margin-bottom: 1%;
+}
+
+#ACCESS .SNS {
+    display: flex;
+    margin-left: 30%;
+
+}
+
+#ACCESS .SNS svg {
+    width: 5%;
+    margin-left: 2%;
+    cursor: pointer;
+}
+
+#ACCESS .last {
+    margin-left: 60%;
+    font-size: 1.4rem;
+    text-shadow: 10px 10px 5px rgba(0,0,0,0.1);
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+}
+
+
+/******各メディア対応**************/
+@media (max-width:1080px) {
+   /******** header ***************/
+    .header .img {
+        margin-top: 1%;
+        margin-left: 6%;   
+    }
+
+    .header .img img {
+        width: 60%;
+        height: 120%;
+    }
+
+    .header ul {
+        list-style: none;
+        display: flex;
+        align-self: center;
+        margin-top: 3%;
+        margin-right: 8%;
+    }
+
+    .header ul li {
+        margin-right: 10%;
+    }
+
+    .header ul li a {
+        text-decoration: none;
+        color: black;
+        font-size: 1.2rem;
+        font-family: "Lexend Deca", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+    }
+
+    /******** swiper ***************/
+    .swiper {
+        width: 80%;
+        height: 60%;
+        margin-left: 20%;
+        margin-top: 2%;
+        object-fit: cover;
+    }
+
+    .swiper .swiper-wrapper img {
+        width: 100%;
+        height: 80vh;
+        object-fit: cover;
+        user-select: none;
+    }
+
+    /******** ABOUT ***************/
+    #ABOUT {
+        width: 100%;
+        height: auto;
+        margin-top: 8%;
+        margin-left: 10%;
+    }
+
+    #ABOUT h1 {
+        font-size: 4.0rem;
+    }
+
+    #ABOUT h2 {
+        font-size: 2.4rem; 
+    }
+
+    #ABOUT p {
+        font-size: 1.8rem;
+    }
+
+    #ABOUT .profile {
+        margin-left: 15%
+    }
+
+    #ABOUT .profile img {
+        width: 40%;
+    }
+
+    #ABOUT .profile .pro-text p {
+        font-size: 1.8rem;
+    }
+
+    /******** STYLE ***************/
+    #STYLE h1 {
+        width: 100%;
+        margin-left: 5%;
+        font-size: 4.0rem;
+    }
+
+    #STYLE .style-img .style-1 {
+        margin-left: 2.5%;
+    }
+    
+    #STYLE .style-img .style-2 {
+        margin-left: 2.5%;
+    }
+        
+    #STYLE .style-img .style-3 {
+        margin-left: 2.5%;
+    }
+      
+    #STYLE .style-img .style-3 img:hover {
+        transform: scale(1.2);
+    }
+    
+    #STYLE .text .btn {
+        width: 20%;
+        margin-left: 45%;
+        font-size: 2rem;
+    }
+
+    /******** MENU ***************/
+    #MENU h1 {
+        font-size: 4.0rem;
+        margin-left: 10%;
+    }
+    /******recode1 **************/
+    #MENU .recode1 .menu-1 {
+        margin-left: 7.5%;
+    }
+
+    /******recode2 **************/
+    #MENU .recode2 .menu-1 {
+        width: 30%;
+        margin-left: 7.5%;
+    }
+
+    /******** ACCESS ***************/
+    #ACCESS h1 {
+        font-size: 4.0rem;
+        margin-left: 10%;
+    }
+
+    #ACCESS iframe {
+        width: 80%;
+        margin-left: 15%;
+    }
+
+    #ACCESS .text {
+        margin-left: 20%;
+    }
+
+    #ACCESS .SNS {
+        margin-left: 18%;
+    }
+}
+
+@media (max-width:768px) {
+    /******** header ***************/
+     .header .img {
+         margin-top: 1%;
+         margin-left: 3%;   
+     }
+ 
+     .header .img img {
+         width: 60%;
+         height: 120%;
+     }
+ 
+     .header ul {
+         margin-right: 10%;
+     }
+ 
+     .header ul li {
+         margin-right:8%;
+     }
+ 
+     .header ul li a {
+         font-size: 1.0rem;
+     }
+ 
+     /******** swiper ***************/
+     .swiper {
+         width: 100%;
+         height: 60%;
+         margin-left: 5%;
+         margin-top: 2%;
+         object-fit: cover;
+     }
+ 
+     .swiper .swiper-wrapper img {
+         width: 100%;
+         height: 80vh;
+         object-fit: cover;
+     }
+ 
+     /******** ABOUT ***************/
+     #ABOUT {
+         width: 100%;
+         height: auto;
+         margin-top: 8%;
+         margin-left: 5%;
+     }
+ 
+     #ABOUT h1 {
+         font-size: 4.0rem;
+     }
+ 
+     #ABOUT h2 {
+         font-size: 1.8rem; 
+     }
+ 
+     #ABOUT p {
+         font-size: 1.4rem;
+     }
+ 
+     #ABOUT .profile {
+         margin-left: 15%
+     }
+ 
+     #ABOUT .profile img {
+         width: 40%;
+         height: 40vh;
+     }
+ 
+     #ABOUT .profile .pro-text p {
+         font-size: 1.4rem;
+     }
+ 
+     /******** STYLE ***************/
+     #STYLE h1 {
+         width: 100%;
+         margin-left: 5%;
+         font-size: 4.0rem;
+     }
+ 
+     #STYLE .style-img .style-1 {
+         margin-left: 2.5%;
+     }
+     
+     #STYLE .style-img .style-2 {
+         margin-left: 2.5%;
+     }
+         
+     #STYLE .style-img .style-3 {
+         margin-left: 2.5%;
+     }
+       
+     #STYLE .style-img .style-3 img:hover {
+         transform: scale(1.2);
+     }
+     
+     #STYLE .text .btn {
+         width: 20%;
+         margin-left: 45%;
+         font-size: 2rem;
+     }
+ 
+     /******** MENU ***************/
+     #MENU h1 {
+         font-size: 4.0rem;
+         margin-left: 10%;
+         margin-bottom: 8%;
+     }
+     /******recode1 **************/
+     #MENU .recode1 .menu-1 {
+         margin-left: 7.5%;
+     }
+ 
+     #MENU .recode1 .menu-1 h2 {
+        font-size: 2.6rem;
+        margin-bottom: 15%;
+     }
+
+     #MENU .recode1 .menu-1 p {
+        font-size: 1.2rem;
+     }
+
+     #MENU .recode1 .menu-2 h2 {
+        font-size: 2.6rem;
+        margin-bottom: 15%;
+     }
+
+     #MENU .recode1 .menu-2 p {
+        font-size: 1.2rem;
+     }
+
+     #MENU .recode1 .menu-3 h2 {
+        font-size: 2.6rem;
+        margin-bottom: 15%;
+     }
+
+     #MENU .recode1 .menu-3 p {
+        font-size: 1.2rem;
+     }
+     /******recode2 **************/
+     #MENU .recode2 .menu-1 {
+         width: 30%;
+         margin-left: 7.5%;
+     }
+
+     #MENU .recode2 .menu-1 h2 {
+        font-size: 2.6rem;
+        margin-bottom: 15%;
+     }
+
+     #MENU .recode2 .menu-1 p {
+        font-size: 1.2rem;
+     }
+
+     #MENU .recode2 .menu-2 h2 {
+        font-size: 2.6rem;
+        margin-bottom: 15%;
+     }
+
+     #MENU .recode2 .menu-2 p {
+        font-size: 1.2rem;
+     }
+
+     #MENU .recode2 .menu-3 p {
+        font-size: 1.2rem;
+     }
+     /******** ACCESS ***************/
+     #ACCESS h1 {
+         font-size: 4.0rem;
+         margin-left: 10%;
+     }
+ 
+     #ACCESS iframe {
+         width: 80%;
+         margin-left: 10%;
+     }
+ 
+     #ACCESS .text {
+        width: 80%;
+         margin-left: 10%;
+     }
+
+     #ACCESS .text p {
+        font-size: 1.4rem;
+     }
+ 
+     #ACCESS .SNS {
+         margin-left: 10%;
+     }
+
+     #ACCESS .last {
+        margin-left: 50%;
+        font-size: 1.2rem;
+     }
+ }
+
+@media (max-width:400px) {
+    /******** header ***************/
+     .header .img {
+         margin-top: 1%;
+         margin-left: 3%;   
+     }
+ 
+     .header .img img {
+         width: 70%;
+         height: 120%;
+     }
+ 
+     .header ul {
+         margin-right: 10%;
+     }
+ 
+     .header ul li {
+         margin-right:8%;
+     }
+ 
+     .header ul li a {
+         font-size: 0.6rem;
+     }
+ 
+     /******** swiper ***************/
+     .swiper {
+         width: 100%;
+         height: 60%;
+         margin-left: 5%;
+         margin-top: 2%;
+         object-fit: cover;
+     }
+ 
+     .swiper .swiper-wrapper img {
+         width: 100%;
+         height: 80vh;
+         object-fit: cover;
+     }
+ 
+     /******** ABOUT ***************/
+     #ABOUT {
+         width: 100%;
+         height: auto;
+         margin-top: 20%;
+         margin-left: 5%;
+     }
+ 
+     #ABOUT h1 {
+         font-size: 3.0rem;
+     }
+ 
+     #ABOUT h2 {
+         font-size: 1.6rem; 
+     }
+ 
+     #ABOUT p {
+         font-size: 1.0rem;
+     }
+ 
+     #ABOUT .profile {
+         margin-left: 15%
+     }
+ 
+     #ABOUT .profile img {
+         width: 35%;
+         height: 25vh;
+         border-radius: 80%;
+     }
+ 
+     #ABOUT .profile .pro-text p {
+         font-size: 1.0rem;
+         margin-bottom: -10%;
+     }
+ 
+     /******** STYLE ***************/
+     #STYLE h1 {
+         width: 100%;
+         margin-top: 20%;
+         margin-left: 5%;
+         font-size: 3.0rem;
+     }
+ 
+     #STYLE .style-img .style-1 {
+         margin-left: 2.5%;
+     }
+     
+     #STYLE .style-img .style-2 {
+         margin-left: 2.5%;
+     }
+         
+     #STYLE .style-img .style-3 {
+         margin-left: 2.5%;
+     }
+       
+     #STYLE .style-img .style-3 img:hover {
+         transform: scale(1.2);
+     }
+     
+     #STYLE .text .btn {
+         width: 20%;
+         margin-left: 45%;
+         font-size: 0.8rem;
+     }
+ 
+     /******** MENU ***************/
+     #MENU h1 {
+         font-size: 3.0rem;
+         margin-top: 20%;
+         margin-left: 10%;
+         margin-bottom: 8%;
+     }
+     /******recode1 **************/
+     #MENU .recode1 {
+         display: block;
+     }
+
+     #MENU .recode1 .menu-1 {
+         width: 100%;
+         margin-bottom: 15%;
+     }
+ 
+     #MENU .recode1 .menu-1 h2 {
+        font-size: 2.6rem;
+        margin-bottom: 10%;
+        margin-left: -10%;
+     }
+
+     #MENU .recode1 .menu-1 p {
+        font-size: 1.0rem;
+     }
+
+     #MENU .recode1 .menu-2 {
+        width: 100%;
+        margin-bottom: 15%;
+     }
+
+     #MENU .recode1 .menu-2 h2 {
+        width: 100%;
+        font-size: 2.6rem;
+        margin-bottom: 10%;
+     }
+
+     #MENU .recode1 .menu-2 p {
+        font-size: 1.0rem;
+        margin-left: 15%;
+     }
+
+     #MENU .recode1 .menu-3 {
+        width: 100%;
+     }
+
+     #MENU .recode1 .menu-3 h2 {
+        font-size: 2.6rem;
+        margin-bottom: 10%;
+     }
+
+     #MENU .recode1 .menu-3 p {
+        font-size: 1.0rem;
+        margin-left: 15%;
+     }
+
+     /******recode2 **************/
+     #MENU .recode2 {
+        display: block;
+        margin-top: 15%;
+     }
+
+     #MENU .recode2 .menu-1 {
+        width: 100%;
+     }
+
+     #MENU .recode2 .menu-1 h2 {
+        font-size: 2.6rem;
+        margin-bottom: 10%;
+     }
+
+     #MENU .recode2 .menu-1 p {
+        font-size: 1.0rem;
+        margin-left: 10%;
+     }
+
+     #MENU .recode2 .menu-2 {
+        width:100%;
+        margin-top: 15%;
+     }
+
+     #MENU .recode2 .menu-2 h2 {
+        font-size: 2.6rem;
+        margin-bottom: 10%;
+     }
+
+     #MENU .recode2 .menu-2 p {
+        font-size: 1.0rem;
+        margin-left: 15%;
+     }
+
+     /******** ACCESS ***************/
+     #ACCESS h1 {
+         font-size: 3.0rem;
+         margin-top: 20%;
+         margin-left: 10%;
+     }
+ 
+     #ACCESS iframe {
+         width: 90%;
+         margin-left: 5%;
+     }
+ 
+     #ACCESS .text {
+        width: 90%;
+         margin-left: 5%;
+     }
+
+     #ACCESS .text p {
+        font-size: 1.0rem;
+     }
+ 
+     #ACCESS .SNS {
+         margin-left: 5%;
+     }
+
+     #ACCESS .last {
+        margin-left: 50%;
+        font-size: 0.6rem;
+     }
+ }
