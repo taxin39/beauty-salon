@@ -891,7 +891,7 @@ body {
      
      #STYLE .text .btn {
          width: 20%;
-         margin-left: 45%;
+         margin-left: 42%;
          font-size: 0.8rem;
      }
  
@@ -899,7 +899,7 @@ body {
      #MENU h1 {
          font-size: 3.0rem;
          margin-top: 20%;
-         margin-left: 10%;
+         margin-left: 5%;
          margin-bottom: 8%;
      }
      /******recode1 **************/
@@ -915,11 +915,12 @@ body {
      #MENU .recode1 .menu-1 h2 {
         font-size: 2.6rem;
         margin-bottom: 10%;
-        margin-left: -10%;
+        margin-right: 15%;
      }
 
      #MENU .recode1 .menu-1 p {
         font-size: 1.0rem;
+        margin-right: 10%;
      }
 
      #MENU .recode1 .menu-2 {
@@ -935,7 +936,7 @@ body {
 
      #MENU .recode1 .menu-2 p {
         font-size: 1.0rem;
-        margin-left: 15%;
+        margin-left: 10%;
      }
 
      #MENU .recode1 .menu-3 {
@@ -949,12 +950,13 @@ body {
 
      #MENU .recode1 .menu-3 p {
         font-size: 1.0rem;
-        margin-left: 15%;
+        margin-left: 10%;
      }
 
      /******recode2 **************/
      #MENU .recode2 {
         display: block;
+        width: 100%;
         margin-top: 15%;
      }
 
@@ -965,11 +967,12 @@ body {
      #MENU .recode2 .menu-1 h2 {
         font-size: 2.6rem;
         margin-bottom: 10%;
+        margin-right: 10%;
      }
 
      #MENU .recode2 .menu-1 p {
         font-size: 1.0rem;
-        margin-left: 10%;
+        margin-left: 5%;
      }
 
      #MENU .recode2 .menu-2 {
@@ -984,7 +987,7 @@ body {
 
      #MENU .recode2 .menu-2 p {
         font-size: 1.0rem;
-        margin-left: 15%;
+        margin-left: 10%;
      }
 
      /******** ACCESS ***************/
@@ -995,21 +998,21 @@ body {
      }
  
      #ACCESS iframe {
-         width: 90%;
-         margin-left: 5%;
+         width: 80%;
+         margin-left: 12%;
      }
  
      #ACCESS .text {
         width: 90%;
-         margin-left: 5%;
+        margin-left: 12%;
      }
 
      #ACCESS .text p {
-        font-size: 1.0rem;
+        font-size: 0.8rem;
      }
  
      #ACCESS .SNS {
-         margin-left: 5%;
+         margin-left: 10%;
      }
 
      #ACCESS .last {
